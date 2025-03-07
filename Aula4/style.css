@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+form{
+    width: 300px;
+}
+
+label{
+    display: block;
+    margin-bottom:  5px;
+    background-color: bisque;
+}
+
+input[type="text"], input[type="email"], textarea, input[type="password"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: beige;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049;
+}
